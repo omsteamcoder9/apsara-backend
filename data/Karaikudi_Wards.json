@@ -1,0 +1,3750 @@
+{
+  "municipality": "Karaikudi",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "coordinateSystem": "WGS84 EPSG:4326",
+  "format": "Decimal Degrees",
+  "totalWards": 36,
+  "generatedDate": "2026-05-15",
+  "note": "Polygon vertices extracted from official Karaikudi Municipality ward maps. For legal boundary purposes obtain official GIS shapefile from Karaikudi Municipal Corporation.",
+  "usageNote": "polygon field = [[lat,lon],...] closed ring. geojson field = GeoJSON Polygon geometry with [lon,lat] coordinate order per GeoJSON spec.",
+  "wards": [
+    {
+      "wardId": 1,
+      "wardName": "Kalanivasal / North Oorani",
+      "centroid": {
+        "lat": 10.087,
+        "lon": 78.774
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 2",
+        "Ward 10"
+      ],
+      "totalStreets": 11,   
+      "streets": [
+        "Kalanivasal O.Siruvayal Road",
+        "Maruthupandiyar street",
+        "Thiruganasambanthar street",
+        "Pillaiyar Kudam",
+        "Chinna pillaiyar kudam santhu",
+        "V.O.C Road (Signal - O.Siruvayal road)",
+        "Kambar Street",
+        "Illango Street",
+        "Iyulli amman kovil Street",
+        "Pugalenthi street",
+        "North Oorani"
+      ],
+      "polygon": [
+        [
+          10.094,
+          78.77
+        ],
+        [
+          10.092,
+          78.778
+        ],
+        [
+          10.088,
+          78.779
+        ],
+        [
+          10.084,
+          78.776
+        ],
+        [
+          10.082,
+          78.77
+        ],
+        [
+          10.086,
+          78.766
+        ],
+        [
+          10.091,
+          78.765
+        ],
+        [
+          10.094,
+          78.77
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.77,
+              10.094
+            ],
+            [
+              78.778,
+              10.092
+            ],
+            [
+              78.779,
+              10.088
+            ],
+            [
+              78.776,
+              10.084
+            ],
+            [
+              78.77,
+              10.082
+            ],
+            [
+              78.766,
+              10.086
+            ],
+            [
+              78.765,
+              10.091
+            ],
+            [
+              78.77,
+              10.094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 2,
+      "wardName": "Kalanivasal / Alagappan Area",
+      "centroid": {
+        "lat": 10.087,
+        "lon": 78.782
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 1",
+        "Ward 3",
+        "Ward 9"
+      ],
+      "totalStreets": 14,
+      "streets": [
+        "Alagappan Ambalam Street",
+        "Alagappan cross street",
+        "Alagappan kilamel street",
+        "Alagappan street",
+        "Bharathi nagar",
+        "Idaichi oorani",
+        "Kalanivasal sekkalai road",
+        "Kalanivasal thenvadal",
+        "Kalanivasal V.O.C road",
+        "Kalanivasal Alagappan Street",
+        "V.O.C road",
+        "Vairavan Street",
+        "Vellaiyan Street",
+        "V.O.C Road (Signal - O.Siruvayal road)"
+      ],
+      "polygon": [
+        [
+          10.093,
+          78.779
+        ],
+        [
+          10.092,
+          78.787
+        ],
+        [
+          10.088,
+          78.788
+        ],
+        [
+          10.084,
+          78.785
+        ],
+        [
+          10.082,
+          78.779
+        ],
+        [
+          10.084,
+          78.776
+        ],
+        [
+          10.088,
+          78.779
+        ],
+        [
+          10.093,
+          78.779
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.779,
+              10.093
+            ],
+            [
+              78.787,
+              10.092
+            ],
+            [
+              78.788,
+              10.088
+            ],
+            [
+              78.785,
+              10.084
+            ],
+            [
+              78.779,
+              10.082
+            ],
+            [
+              78.776,
+              10.084
+            ],
+            [
+              78.779,
+              10.088
+            ],
+            [
+              78.779,
+              10.093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 3,
+      "wardName": "Arumuga Nagar / Iyanarpuram",
+      "centroid": {
+        "lat": 10.085,
+        "lon": 78.786
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 2",
+        "Ward 4",
+        "Ward 6",
+        "Ward 7"
+      ],
+      "totalStreets": 15,
+      "streets": [
+        "Valluvar salai-85",
+        "Sekkalai Kottaiyur Road",
+        "Kalanivasal sekalai road",
+        "Kotaiyur Nattar G-block I",
+        "Kotaiyur Nattar G-block II",
+        "Kotaiyur Nattar G-block III",
+        "Arumuga nagar 1st street",
+        "Arumuga nagar 2nd street",
+        "Arumuga nagar 3rd street",
+        "Arumuga nagar 4th street",
+        "Arumuga nagar 5th street",
+        "Arumuga nagar 6th street",
+        "Iyanarpuram 1st street",
+        "Iyanarpuram 2nd street",
+        "Iyanarpuram 3rd street"
+      ],
+      "polygon": [
+        [
+          10.091,
+          78.785
+        ],
+        [
+          10.09,
+          78.793
+        ],
+        [
+          10.086,
+          78.794
+        ],
+        [
+          10.082,
+          78.79
+        ],
+        [
+          10.082,
+          78.785
+        ],
+        [
+          10.085,
+          78.782
+        ],
+        [
+          10.088,
+          78.784
+        ],
+        [
+          10.091,
+          78.785
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.785,
+              10.091
+            ],
+            [
+              78.793,
+              10.09
+            ],
+            [
+              78.794,
+              10.086
+            ],
+            [
+              78.79,
+              10.082
+            ],
+            [
+              78.785,
+              10.082
+            ],
+            [
+              78.782,
+              10.085
+            ],
+            [
+              78.784,
+              10.088
+            ],
+            [
+              78.785,
+              10.091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 4,
+      "wardName": "Subramaniyapuram North / Teppakullam",
+      "centroid": {
+        "lat": 10.079,
+        "lon": 78.787
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 3",
+        "Ward 5",
+        "Ward 6",
+        "Ward 15"
+      ],
+      "totalStreets": 21,
+      "streets": [
+        "Pillayar kovil Vadaku",
+        "Velliyan street",
+        "Teppakullam south",
+        "Teppakullam north",
+        "Natesan street",
+        "Thesiyavinayagam street",
+        "Vadaku santhu",
+        "College road",
+        "South Lane 1 East",
+        "South Lane 2 East",
+        "South Lane 3 East",
+        "North Lane 1 East",
+        "North Lane 2 East",
+        "North Lane 3 East",
+        "Saminathan street",
+        "Subramaniyapuram 1st street",
+        "Subramaniyapuram 4th-6th street Extension",
+        "Kotaiyur Road (East)",
+        "Shanmugam street",
+        "Pillayar kovil street",
+        "Theppakulam west"
+      ],
+      "polygon": [
+        [
+          10.084,
+          78.783
+        ],
+        [
+          10.083,
+          78.792
+        ],
+        [
+          10.079,
+          78.793
+        ],
+        [
+          10.075,
+          78.791
+        ],
+        [
+          10.075,
+          78.784
+        ],
+        [
+          10.078,
+          78.781
+        ],
+        [
+          10.082,
+          78.782
+        ],
+        [
+          10.084,
+          78.783
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.783,
+              10.084
+            ],
+            [
+              78.792,
+              10.083
+            ],
+            [
+              78.793,
+              10.079
+            ],
+            [
+              78.791,
+              10.075
+            ],
+            [
+              78.784,
+              10.075
+            ],
+            [
+              78.781,
+              10.078
+            ],
+            [
+              78.782,
+              10.082
+            ],
+            [
+              78.783,
+              10.084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 5,
+      "wardName": "Subramaniyapuram South / Sambanthar Street",
+      "centroid": {
+        "lat": 10.076,
+        "lon": 78.784
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 4",
+        "Ward 15"
+      ],
+      "totalStreets": 7,
+      "streets": [
+        "College road",
+        "Sambanthar street",
+        "Subramaniyapuram 2nd street / 2nd street Extension",
+        "Subramaniyapuram 3rd street / Illango Street",
+        "Subramaniyapuram 4th-10th street",
+        "Valluvar salai",
+        "Bharathi street subramaniyapuram 1st street"
+      ],
+      "polygon": [
+        [
+          10.08,
+          78.781
+        ],
+        [
+          10.079,
+          78.788
+        ],
+        [
+          10.075,
+          78.79
+        ],
+        [
+          10.072,
+          78.788
+        ],
+        [
+          10.072,
+          78.78
+        ],
+        [
+          10.075,
+          78.778
+        ],
+        [
+          10.078,
+          78.779
+        ],
+        [
+          10.08,
+          78.781
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.781,
+              10.08
+            ],
+            [
+              78.788,
+              10.079
+            ],
+            [
+              78.79,
+              10.075
+            ],
+            [
+              78.788,
+              10.072
+            ],
+            [
+              78.78,
+              10.072
+            ],
+            [
+              78.778,
+              10.075
+            ],
+            [
+              78.779,
+              10.078
+            ],
+            [
+              78.781,
+              10.08
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 6,
+      "wardName": "Nadesan Chettiar / Tamilthazhi Kovil Street",
+      "centroid": {
+        "lat": 10.081,
+        "lon": 78.778
+      },
+      "adjacent": [
+        "Ward 3",
+        "Ward 4",
+        "Ward 7",
+        "Ward 15"
+      ],
+      "totalStreets": 11,
+      "streets": [
+        "Sekkalai arunachalam street (Double side)",
+        "Thiyagarajan street",
+        "Annamalai street",
+        "South lane-1 (West)",
+        "South lane-2 (West)",
+        "South lane-3 (West)",
+        "Nadu santhu",
+        "North Lane 1 (West)",
+        "North Lane 2 (West)",
+        "North Lane 3 (West)",
+        "Saminathan street"
+      ],
+      "polygon": [
+        [
+          10.086,
+          78.775
+        ],
+        [
+          10.085,
+          78.782
+        ],
+        [
+          10.081,
+          78.783
+        ],
+        [
+          10.077,
+          78.781
+        ],
+        [
+          10.077,
+          78.775
+        ],
+        [
+          10.08,
+          78.772
+        ],
+        [
+          10.084,
+          78.773
+        ],
+        [
+          10.086,
+          78.775
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.775,
+              10.086
+            ],
+            [
+              78.782,
+              10.085
+            ],
+            [
+              78.783,
+              10.081
+            ],
+            [
+              78.781,
+              10.077
+            ],
+            [
+              78.775,
+              10.077
+            ],
+            [
+              78.772,
+              10.08
+            ],
+            [
+              78.773,
+              10.084
+            ],
+            [
+              78.775,
+              10.086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 7,
+      "wardName": "Paventhar Salai / Aruna Nagar / Police Colony North",
+      "centroid": {
+        "lat": 10.079,
+        "lon": 78.772
+      },
+      "adjacent": [
+        "Ward 3",
+        "Ward 6",
+        "Ward 8",
+        "Ward 13",
+        "Ward 14"
+      ],
+      "totalStreets": 11,
+      "streets": [
+        "Paventhar salai",
+        "N S K street",
+        "Mathavan street",
+        "Valluvar street",
+        "Indra street",
+        "Bharathiyar street",
+        "Thennarasu street",
+        "Navalar street",
+        "Devar street",
+        "Rajendrean street",
+        "Police colony north"
+      ],
+      "polygon": [
+        [
+          10.084,
+          78.772
+        ],
+        [
+          10.083,
+          78.779
+        ],
+        [
+          10.079,
+          78.78
+        ],
+        [
+          10.075,
+          78.776
+        ],
+        [
+          10.075,
+          78.769
+        ],
+        [
+          10.078,
+          78.766
+        ],
+        [
+          10.082,
+          78.768
+        ],
+        [
+          10.084,
+          78.772
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.772,
+              10.084
+            ],
+            [
+              78.779,
+              10.083
+            ],
+            [
+              78.78,
+              10.079
+            ],
+            [
+              78.776,
+              10.075
+            ],
+            [
+              78.769,
+              10.075
+            ],
+            [
+              78.766,
+              10.078
+            ],
+            [
+              78.768,
+              10.082
+            ],
+            [
+              78.772,
+              10.084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 8,
+      "wardName": "Meenashi Puram / Muthumariyamman Kovil Street",
+      "centroid": {
+        "lat": 10.079,
+        "lon": 78.766
+      },
+      "adjacent": [
+        "Ward 7",
+        "Ward 9",
+        "Ward 14"
+      ],
+      "totalStreets": 13,
+      "streets": [
+        "Majith road",
+        "Chidambaram street",
+        "Kalaingar street (x3)",
+        "Pallivasal street (Backside)",
+        "Jeeva nagar",
+        "Yuthu pillayar kovil street",
+        "Meenatchi puram kilpakam",
+        "Mathavan street",
+        "Meenatchi street",
+        "Kalanivasal puthu road kilpagam",
+        "Kalanivasal puthu road-main",
+        "Muthuraiyar street",
+        "Priyanga street"
+      ],
+      "polygon": [
+        [
+          10.083,
+          78.766
+        ],
+        [
+          10.082,
+          78.773
+        ],
+        [
+          10.078,
+          78.774
+        ],
+        [
+          10.075,
+          78.771
+        ],
+        [
+          10.075,
+          78.764
+        ],
+        [
+          10.078,
+          78.761
+        ],
+        [
+          10.081,
+          78.762
+        ],
+        [
+          10.083,
+          78.766
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.766,
+              10.083
+            ],
+            [
+              78.773,
+              10.082
+            ],
+            [
+              78.774,
+              10.078
+            ],
+            [
+              78.771,
+              10.075
+            ],
+            [
+              78.764,
+              10.075
+            ],
+            [
+              78.761,
+              10.078
+            ],
+            [
+              78.762,
+              10.081
+            ],
+            [
+              78.766,
+              10.083
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 9,
+      "wardName": "Kalanivasal-Kotaiyur Road / Parupurani",
+      "centroid": {
+        "lat": 10.083,
+        "lon": 78.764
+      },
+      "adjacent": [
+        "Ward 2",
+        "Ward 7",
+        "Ward 8",
+        "Ward 10"
+      ],
+      "totalStreets": 7,
+      "streets": [
+        "Kalanivasal - Kotaiyur road (Double side)",
+        "Vannan odai",
+        "E.B back side",
+        "Muthumari nagar",
+        "Kalanivasal puthu road melpagam",
+        "Parupurani",
+        "Kuruvi karan street"
+      ],
+      "polygon": [
+        [
+          10.088,
+          78.762
+        ],
+        [
+          10.087,
+          78.77
+        ],
+        [
+          10.083,
+          78.771
+        ],
+        [
+          10.079,
+          78.767
+        ],
+        [
+          10.079,
+          78.76
+        ],
+        [
+          10.082,
+          78.757
+        ],
+        [
+          10.086,
+          78.758
+        ],
+        [
+          10.088,
+          78.762
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.762,
+              10.088
+            ],
+            [
+              78.77,
+              10.087
+            ],
+            [
+              78.771,
+              10.083
+            ],
+            [
+              78.767,
+              10.079
+            ],
+            [
+              78.76,
+              10.079
+            ],
+            [
+              78.757,
+              10.082
+            ],
+            [
+              78.758,
+              10.086
+            ],
+            [
+              78.762,
+              10.088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 10,
+      "wardName": "Chellan Chetty Oorani / Bharathithasan Street",
+      "centroid": {
+        "lat": 10.087,
+        "lon": 78.758
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 1",
+        "Ward 9",
+        "Ward 11"
+      ],
+      "totalStreets": 7,
+      "streets": [
+        "V.O.C road east side",
+        "Alagappan street",
+        "Alagappan cross road",
+        "Muthumari nagar",
+        "Kalanivasal puthu road melpagam",
+        "Parupurani",
+        "Kuruvi karan street"
+      ],
+      "polygon": [
+        [
+          10.093,
+          78.755
+        ],
+        [
+          10.092,
+          78.763
+        ],
+        [
+          10.088,
+          78.765
+        ],
+        [
+          10.084,
+          78.762
+        ],
+        [
+          10.084,
+          78.754
+        ],
+        [
+          10.087,
+          78.751
+        ],
+        [
+          10.091,
+          78.752
+        ],
+        [
+          10.093,
+          78.755
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.755,
+              10.093
+            ],
+            [
+              78.763,
+              10.092
+            ],
+            [
+              78.765,
+              10.088
+            ],
+            [
+              78.762,
+              10.084
+            ],
+            [
+              78.754,
+              10.084
+            ],
+            [
+              78.751,
+              10.087
+            ],
+            [
+              78.752,
+              10.091
+            ],
+            [
+              78.755,
+              10.093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 11,
+      "wardName": "Gandipuram / Servar Oorani / Koviloor Road North",
+      "centroid": {
+        "lat": 10.077,
+        "lon": 78.757
+      },
+      "adjacent": [
+        "Sankarapuram Panchayat",
+        "Ward 10",
+        "Ward 12",
+        "Ward 22",
+        "Ward 23"
+      ],
+      "totalStreets": 8,
+      "streets": [
+        "Gandipuram 1st-5th street",
+        "Mettu street",
+        "V.O.C road (Gandipuram 1st street - Ramavilas theater) W & E",
+        "V.O.C road West side 1st beel road",
+        "Kovilur road north",
+        "Servar oorani",
+        "Mayana pathai",
+        "Servar oorani west"
+      ],
+      "polygon": [
+        [
+          10.082,
+          78.753
+        ],
+        [
+          10.082,
+          78.762
+        ],
+        [
+          10.078,
+          78.763
+        ],
+        [
+          10.074,
+          78.76
+        ],
+        [
+          10.073,
+          78.753
+        ],
+        [
+          10.076,
+          78.75
+        ],
+        [
+          10.08,
+          78.751
+        ],
+        [
+          10.082,
+          78.753
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.753,
+              10.082
+            ],
+            [
+              78.762,
+              10.082
+            ],
+            [
+              78.763,
+              10.078
+            ],
+            [
+              78.76,
+              10.074
+            ],
+            [
+              78.753,
+              10.073
+            ],
+            [
+              78.75,
+              10.076
+            ],
+            [
+              78.751,
+              10.08
+            ],
+            [
+              78.753,
+              10.082
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 12,
+      "wardName": "Muthupattinam / Annamalai / Somu Pillai Street",
+      "centroid": {
+        "lat": 10.076,
+        "lon": 78.768
+      },
+      "adjacent": [
+        "Ward 9",
+        "Ward 11",
+        "Ward 13",
+        "Ward 21",
+        "Ward 22"
+      ],
+      "totalStreets": 17,
+      "streets": [
+        "Annamalai street",
+        "Iyannar street",
+        "Iyannar sanathi street",
+        "Arumugam street",
+        "Kaman pandigai street",
+        "Saminathan street",
+        "Perumal santhu",
+        "Perumal street",
+        "Meiyappan street santhu",
+        "Muthupattinam 1st street",
+        "Muthupattinam 4th street",
+        "Somu street",
+        "Somu street south",
+        "Kalyanasundarar street",
+        "Saminathan street",
+        "Manickavasagar street",
+        "Paruporani north-south"
+      ],
+      "polygon": [
+        [
+          10.08,
+          78.764
+        ],
+        [
+          10.08,
+          78.773
+        ],
+        [
+          10.076,
+          78.774
+        ],
+        [
+          10.072,
+          78.771
+        ],
+        [
+          10.072,
+          78.764
+        ],
+        [
+          10.075,
+          78.761
+        ],
+        [
+          10.078,
+          78.762
+        ],
+        [
+          10.08,
+          78.764
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.764,
+              10.08
+            ],
+            [
+              78.773,
+              10.08
+            ],
+            [
+              78.774,
+              10.076
+            ],
+            [
+              78.771,
+              10.072
+            ],
+            [
+              78.764,
+              10.072
+            ],
+            [
+              78.761,
+              10.075
+            ],
+            [
+              78.762,
+              10.078
+            ],
+            [
+              78.764,
+              10.08
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 13,
+      "wardName": "Meenatchipuram / KRV Layout / Arunachalam Street",
+      "centroid": {
+        "lat": 10.075,
+        "lon": 78.773
+      },
+      "adjacent": [
+        "Ward 8",
+        "Ward 9",
+        "Ward 12",
+        "Ward 14",
+        "Ward 21"
+      ],
+      "totalStreets": 17,
+      "streets": [
+        "Piranmalai rawther street",
+        "Meenatchi amman sanathi street",
+        "Meenatchipuram kudusaigal",
+        "Meenatchipuram tenvadal",
+        "Piranmalai/Meenatchipuram",
+        "Sannathi theru Vadaku",
+        "Meenatchipuram kilamel 1st-3rd street",
+        "Pallivasal street",
+        "Meenatchipuram thenvadal 1st (Cement road)",
+        "Muthuraman street",
+        "Meenatchipuram new street",
+        "Esappan chettiyar street",
+        "Esappan street",
+        "Viswasapuram",
+        "Arunachalam Street",
+        "Muthu K.R.V. Layout 1st-2nd street",
+        "From Muthumariyaman kovil - arch"
+      ],
+      "polygon": [
+        [
+          10.079,
+          78.771
+        ],
+        [
+          10.079,
+          78.779
+        ],
+        [
+          10.075,
+          78.78
+        ],
+        [
+          10.071,
+          78.777
+        ],
+        [
+          10.071,
+          78.77
+        ],
+        [
+          10.074,
+          78.767
+        ],
+        [
+          10.077,
+          78.768
+        ],
+        [
+          10.079,
+          78.771
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.771,
+              10.079
+            ],
+            [
+              78.779,
+              10.079
+            ],
+            [
+              78.78,
+              10.075
+            ],
+            [
+              78.777,
+              10.071
+            ],
+            [
+              78.77,
+              10.071
+            ],
+            [
+              78.767,
+              10.074
+            ],
+            [
+              78.768,
+              10.077
+            ],
+            [
+              78.771,
+              10.079
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 14,
+      "wardName": "Kamban Mandapam / Periyar Street / Police Colony",
+      "centroid": {
+        "lat": 10.075,
+        "lon": 78.779
+      },
+      "adjacent": [
+        "Ward 6",
+        "Ward 7",
+        "Ward 8",
+        "Ward 13",
+        "Ward 15"
+      ],
+      "totalStreets": 13,
+      "streets": [
+        "Kamban mandapam back side",
+        "Kamban mandapam street",
+        "Kamban North keelmal",
+        "Kamban east street",
+        "Periyar kilamel street",
+        "Periyar street",
+        "PWD OFFICE - Kuthiraikara kilamel 3rd street",
+        "Pattavar kovil street",
+        "Police colony west",
+        "Aruna nagar",
+        "Govindarajalu salai",
+        "Police colony 1-5",
+        "Kavalar kudiyurupu"
+      ],
+      "polygon": [
+        [
+          10.079,
+          78.776
+        ],
+        [
+          10.079,
+          78.784
+        ],
+        [
+          10.075,
+          78.785
+        ],
+        [
+          10.071,
+          78.782
+        ],
+        [
+          10.071,
+          78.775
+        ],
+        [
+          10.074,
+          78.772
+        ],
+        [
+          10.077,
+          78.773
+        ],
+        [
+          10.079,
+          78.776
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.776,
+              10.079
+            ],
+            [
+              78.784,
+              10.079
+            ],
+            [
+              78.785,
+              10.075
+            ],
+            [
+              78.782,
+              10.071
+            ],
+            [
+              78.775,
+              10.071
+            ],
+            [
+              78.772,
+              10.074
+            ],
+            [
+              78.773,
+              10.077
+            ],
+            [
+              78.776,
+              10.079
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 15,
+      "wardName": "College Road / Taluk Office / Arunachalam Layout",
+      "centroid": {
+        "lat": 10.07,
+        "lon": 78.78
+      },
+      "adjacent": [
+        "Ward 4",
+        "Ward 5",
+        "Ward 6",
+        "Ward 14",
+        "Ward 16",
+        "Ward 19",
+        "Ward 20"
+      ],
+      "totalStreets": 14,
+      "streets": [
+        "Arunachalam layout Street 1-3 (Ambalpuram)",
+        "College road",
+        "Kuduva road",
+        "Shanmuga raja road",
+        "Thenvadal 100 feet road",
+        "Sekkalai road",
+        "Subramaniyapuram 1st-3rd street south",
+        "Subramaniyapuram Kilamel 100 Feet Road south",
+        "Taulka Office road",
+        "Church 5th-7th street",
+        "Kannathasan manimandapam backside",
+        "Kilamael 40 feet road",
+        "Kilamael 100 feet road",
+        "Pillayar kovil backside"
+      ],
+      "polygon": [
+        [
+          10.074,
+          78.777
+        ],
+        [
+          10.074,
+          78.786
+        ],
+        [
+          10.07,
+          78.787
+        ],
+        [
+          10.066,
+          78.784
+        ],
+        [
+          10.066,
+          78.776
+        ],
+        [
+          10.069,
+          78.773
+        ],
+        [
+          10.072,
+          78.774
+        ],
+        [
+          10.074,
+          78.777
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.777,
+              10.074
+            ],
+            [
+              78.786,
+              10.074
+            ],
+            [
+              78.787,
+              10.07
+            ],
+            [
+              78.784,
+              10.066
+            ],
+            [
+              78.776,
+              10.066
+            ],
+            [
+              78.773,
+              10.069
+            ],
+            [
+              78.774,
+              10.072
+            ],
+            [
+              78.777,
+              10.074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 16,
+      "wardName": "Subramaniyapuram South / Bharathi Nagar / 120 Feet Road",
+      "centroid": {
+        "lat": 10.066,
+        "lon": 78.776
+      },
+      "adjacent": [
+        "Ward 5",
+        "Ward 15",
+        "Ward 17"
+      ],
+      "totalStreets": 7,
+      "streets": [
+        "Subramaniyapuram 5th-10th street south",
+        "Taulka Office road",
+        "Bharathi nagar 1st-2nd street",
+        "Kilamel north side 1st street",
+        "College road",
+        "Pathinettam padi nagar 1st street",
+        "Sudamanipuram 100 feet road north"
+      ],
+      "polygon": [
+        [
+          10.07,
+          78.772
+        ],
+        [
+          10.07,
+          78.781
+        ],
+        [
+          10.066,
+          78.782
+        ],
+        [
+          10.062,
+          78.779
+        ],
+        [
+          10.062,
+          78.772
+        ],
+        [
+          10.065,
+          78.769
+        ],
+        [
+          10.068,
+          78.77
+        ],
+        [
+          10.07,
+          78.772
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.772,
+              10.07
+            ],
+            [
+              78.781,
+              10.07
+            ],
+            [
+              78.782,
+              10.066
+            ],
+            [
+              78.779,
+              10.062
+            ],
+            [
+              78.772,
+              10.062
+            ],
+            [
+              78.769,
+              10.065
+            ],
+            [
+              78.77,
+              10.068
+            ],
+            [
+              78.772,
+              10.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 17,
+      "wardName": "Bharathi Nagar / Vallalar Street / Karaikudi Railway Station",
+      "centroid": {
+        "lat": 10.064,
+        "lon": 78.773
+      },
+      "adjacent": [
+        "Ward 16",
+        "Ward 18",
+        "Illuppakudi Panchayat"
+      ],
+      "totalStreets": 13,
+      "streets": [
+        "Bharathi nagar kannadasan street",
+        "Bharathi nagar kambar cross street",
+        "Bharathi nagar illagovadigal street",
+        "Bharathi nagar valluvar street",
+        "Pathinetam padi nagar 2nd street",
+        "Vinayagar street",
+        "Samiyar thotam pinpuram",
+        "Samiyar thotam south",
+        "Goodset street",
+        "Vallalar street kilamel street",
+        "Vallalar street 1-5",
+        "120 feet road north",
+        "Railway - college road"
+      ],
+      "polygon": [
+        [
+          10.068,
+          78.768
+        ],
+        [
+          10.068,
+          78.778
+        ],
+        [
+          10.064,
+          78.779
+        ],
+        [
+          10.059,
+          78.775
+        ],
+        [
+          10.059,
+          78.766
+        ],
+        [
+          10.062,
+          78.763
+        ],
+        [
+          10.066,
+          78.765
+        ],
+        [
+          10.068,
+          78.768
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.768,
+              10.068
+            ],
+            [
+              78.778,
+              10.068
+            ],
+            [
+              78.779,
+              10.064
+            ],
+            [
+              78.775,
+              10.059
+            ],
+            [
+              78.766,
+              10.059
+            ],
+            [
+              78.763,
+              10.062
+            ],
+            [
+              78.765,
+              10.066
+            ],
+            [
+              78.768,
+              10.068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 18,
+      "wardName": "Soodamanipuram / Kannathasan Nagar / 120 Feet Road",
+      "centroid": {
+        "lat": 10.062,
+        "lon": 78.776
+      },
+      "adjacent": [
+        "Ward 16",
+        "Ward 17",
+        "Ward 19"
+      ],
+      "totalStreets": 21,
+      "streets": [
+        "Sudamanipuram 100 feet road North",
+        "Bharathi Nagar",
+        "Pavalla malli street",
+        "M.G.R street",
+        "Senbagam street",
+        "Tamarai street",
+        "Pongudi street",
+        "Malligai street",
+        "Roja street",
+        "Mullai street",
+        "Kurunji street",
+        "Sembaruthi street",
+        "Pugalenthi Street",
+        "120 feet road south-north (x3)",
+        "Palaniyappa arch street",
+        "Pandi kovil street",
+        "Kannathasan manaipirivu",
+        "Thiruvalluvar salai",
+        "Sudamanipuram kilamel IV",
+        "Sudamanipuram V (Ragaventhirar salai)",
+        "Mahatma Gandhi street"
+      ],
+      "polygon": [
+        [
+          10.066,
+          78.772
+        ],
+        [
+          10.066,
+          78.782
+        ],
+        [
+          10.062,
+          78.783
+        ],
+        [
+          10.057,
+          78.78
+        ],
+        [
+          10.057,
+          78.771
+        ],
+        [
+          10.06,
+          78.768
+        ],
+        [
+          10.064,
+          78.769
+        ],
+        [
+          10.066,
+          78.772
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.772,
+              10.066
+            ],
+            [
+              78.782,
+              10.066
+            ],
+            [
+              78.783,
+              10.062
+            ],
+            [
+              78.78,
+              10.057
+            ],
+            [
+              78.771,
+              10.057
+            ],
+            [
+              78.768,
+              10.06
+            ],
+            [
+              78.769,
+              10.064
+            ],
+            [
+              78.772,
+              10.066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 19,
+      "wardName": "Kurichipuravu / Anantha Nagar / Railway Feeder Road",
+      "centroid": {
+        "lat": 10.059,
+        "lon": 78.78
+      },
+      "adjacent": [
+        "Ward 15",
+        "Ward 18",
+        "Ward 20",
+        "Ward 25",
+        "Ward 26"
+      ],
+      "totalStreets": 14,
+      "streets": [
+        "Subramaniyapuram Kilamel street 100 feet Road",
+        "Subramaniyapuram 4th street south",
+        "Mudiarasanar salai",
+        "Malligai street",
+        "Nethaji road",
+        "Seenivasan street",
+        "Chidambaram asari manaipirivu south-north",
+        "Chidambaram manaipirivu Kilamel street I & II",
+        "Kauvery street",
+        "Kannathasan street",
+        "Anantha nagar kilamel street",
+        "Anantha nagar kilamel street I",
+        "Anantha nagar South-North I-V",
+        "Krunjipuravu"
+      ],
+      "polygon": [
+        [
+          10.063,
+          78.777
+        ],
+        [
+          10.063,
+          78.785
+        ],
+        [
+          10.059,
+          78.786
+        ],
+        [
+          10.054,
+          78.783
+        ],
+        [
+          10.054,
+          78.776
+        ],
+        [
+          10.057,
+          78.773
+        ],
+        [
+          10.061,
+          78.774
+        ],
+        [
+          10.063,
+          78.777
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.777,
+              10.063
+            ],
+            [
+              78.785,
+              10.063
+            ],
+            [
+              78.786,
+              10.059
+            ],
+            [
+              78.783,
+              10.054
+            ],
+            [
+              78.776,
+              10.054
+            ],
+            [
+              78.773,
+              10.057
+            ],
+            [
+              78.774,
+              10.061
+            ],
+            [
+              78.777,
+              10.063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 20,
+      "wardName": "Church Streets / 100 Feet Road South / Bus Stand Area",
+      "centroid": {
+        "lat": 10.068,
+        "lon": 78.783
+      },
+      "adjacent": [
+        "Ward 14",
+        "Ward 15",
+        "Ward 19",
+        "Ward 21",
+        "Ward 24",
+        "Ward 25"
+      ],
+      "totalStreets": 8,
+      "streets": [
+        "Church 1st-5th street",
+        "Pillayar kovil street 100 feet road",
+        "K.S.Vallalar Street 100 feet Road",
+        "100 Feet Road south",
+        "Meyappan ambalam street",
+        "Gandhi street",
+        "Javagar street",
+        "Poisolla meyar street"
+      ],
+      "polygon": [
+        [
+          10.072,
+          78.78
+        ],
+        [
+          10.072,
+          78.788
+        ],
+        [
+          10.068,
+          78.789
+        ],
+        [
+          10.064,
+          78.786
+        ],
+        [
+          10.064,
+          78.779
+        ],
+        [
+          10.067,
+          78.776
+        ],
+        [
+          10.07,
+          78.777
+        ],
+        [
+          10.072,
+          78.78
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.78,
+              10.072
+            ],
+            [
+              78.788,
+              10.072
+            ],
+            [
+              78.789,
+              10.068
+            ],
+            [
+              78.786,
+              10.064
+            ],
+            [
+              78.779,
+              10.064
+            ],
+            [
+              78.776,
+              10.067
+            ],
+            [
+              78.777,
+              10.07
+            ],
+            [
+              78.78,
+              10.072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 21,
+      "wardName": "SV Ambalam / Katuthalaivasal / Sekkalai Road",
+      "centroid": {
+        "lat": 10.071,
+        "lon": 78.787
+      },
+      "adjacent": [
+        "Ward 12",
+        "Ward 13",
+        "Ward 14",
+        "Ward 20",
+        "Ward 22",
+        "Ward 24"
+      ],
+      "totalStreets": 18,
+      "streets": [
+        "Green road",
+        "Sekkalai road",
+        "Palaniyappan santhu",
+        "Sundaram santhu",
+        "Krishnan santhu",
+        "Municipal murugaiya santhu",
+        "Karpaga vinayagar santhu",
+        "Katuthalaivasal pathai",
+        "Municipal vaikal pathai",
+        "Meenatchipuram puthu theru",
+        "Manimegalai street",
+        "Pallivasal street",
+        "Nadu ansari street",
+        "Sethakathi street",
+        "Ottakuthar street",
+        "Asad street",
+        "S.V.ambalam street",
+        "Muthuraman street"
+      ],
+      "polygon": [
+        [
+          10.075,
+          78.784
+        ],
+        [
+          10.075,
+          78.792
+        ],
+        [
+          10.071,
+          78.793
+        ],
+        [
+          10.067,
+          78.79
+        ],
+        [
+          10.067,
+          78.783
+        ],
+        [
+          10.07,
+          78.78
+        ],
+        [
+          10.073,
+          78.781
+        ],
+        [
+          10.075,
+          78.784
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.784,
+              10.075
+            ],
+            [
+              78.792,
+              10.075
+            ],
+            [
+              78.793,
+              10.071
+            ],
+            [
+              78.79,
+              10.067
+            ],
+            [
+              78.783,
+              10.067
+            ],
+            [
+              78.78,
+              10.07
+            ],
+            [
+              78.781,
+              10.073
+            ],
+            [
+              78.784,
+              10.075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 22,
+      "wardName": "Muthuoorani / Chidambaram Kilamel / Koviloor Road",
+      "centroid": {
+        "lat": 10.072,
+        "lon": 78.774
+      },
+      "adjacent": [
+        "Ward 11",
+        "Ward 12",
+        "Ward 21",
+        "Ward 23"
+      ],
+      "totalStreets": 20,
+      "streets": [
+        "Mella oorani Vaikal street",
+        "Muthuoorani east/south/north/west",
+        "Muthuoorani muduku street",
+        "Chidambaram kilamel street",
+        "Chidambaram thenvadal street",
+        "Kangatharan street",
+        "Chandrasekaran street",
+        "Ramasamy street",
+        "Kattapoman street",
+        "Shanmugayogeshwarar street",
+        "Pallivasal street",
+        "Chidambaram street",
+        "Puthu street",
+        "Magarnombu street",
+        "II Beet - I beet Kovillur road",
+        "Syed street",
+        "Kannu street",
+        "Purusothaman street",
+        "Marakadai street",
+        "TVK.Sami street"
+      ],
+      "polygon": [
+        [
+          10.076,
+          78.77
+        ],
+        [
+          10.076,
+          78.779
+        ],
+        [
+          10.072,
+          78.78
+        ],
+        [
+          10.068,
+          78.777
+        ],
+        [
+          10.068,
+          78.77
+        ],
+        [
+          10.071,
+          78.767
+        ],
+        [
+          10.074,
+          78.768
+        ],
+        [
+          10.076,
+          78.77
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.77,
+              10.076
+            ],
+            [
+              78.779,
+              10.076
+            ],
+            [
+              78.78,
+              10.072
+            ],
+            [
+              78.777,
+              10.068
+            ],
+            [
+              78.77,
+              10.068
+            ],
+            [
+              78.767,
+              10.071
+            ],
+            [
+              78.768,
+              10.074
+            ],
+            [
+              78.77,
+              10.076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 23,
+      "wardName": "Kallukati / Mela Oorani / SRM Street / Koviloor Road",
+      "centroid": {
+        "lat": 10.066,
+        "lon": 78.766
+      },
+      "adjacent": [
+        "Ward 11",
+        "Ward 22",
+        "Ward 24",
+        "Ward 30",
+        "Ward 31",
+        "Sankarapuram Panchayat"
+      ],
+      "totalStreets": 35,
+      "streets": [
+        "Kallukati East / North / West / South",
+        "Muniswaran kovil street",
+        "Kovillur road",
+        "Subramaniyasiva street (x3)",
+        "Sekilar street",
+        "Therodum vethi",
+        "Devan oorani street",
+        "Nanthavanam street",
+        "Narayanan santhu",
+        "Marukal santhu",
+        "Vairavan kovil street",
+        "Mela oorani road",
+        "Uthama vinayagar street",
+        "Dharmanarayanan street",
+        "AR.A.street",
+        "Kunjan street",
+        "KALRM STREET",
+        "Thiyagarajan street",
+        "Muthalamman kovil west",
+        "Meyappan street",
+        "Ramasamy street",
+        "Vivekanandar street",
+        "Sekalai road",
+        "S.R.M street",
+        "Mellamadam santhu",
+        "Venkatasalam santhu",
+        "SRM 1st-2nd street",
+        "Thavamani santhu",
+        "Yekappan santhu",
+        "Ottapuli meyappan santhu",
+        "Chinnaya santhu",
+        "Sivanatha madam santhu",
+        "Kayangundu santhu",
+        "Therodum",
+        "Melaoorani santhu"
+      ],
+      "polygon": [
+        [
+          10.071,
+          78.762
+        ],
+        [
+          10.071,
+          78.771
+        ],
+        [
+          10.067,
+          78.772
+        ],
+        [
+          10.061,
+          78.768
+        ],
+        [
+          10.061,
+          78.759
+        ],
+        [
+          10.064,
+          78.756
+        ],
+        [
+          10.069,
+          78.758
+        ],
+        [
+          10.071,
+          78.762
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.762,
+              10.071
+            ],
+            [
+              78.771,
+              10.071
+            ],
+            [
+              78.772,
+              10.067
+            ],
+            [
+              78.768,
+              10.061
+            ],
+            [
+              78.759,
+              10.061
+            ],
+            [
+              78.756,
+              10.064
+            ],
+            [
+              78.758,
+              10.069
+            ],
+            [
+              78.762,
+              10.071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 24,
+      "wardName": "C.M Road / Sekkalai / Vadivel Ambalam / Sivan Sanathi",
+      "centroid": {
+        "lat": 10.068,
+        "lon": 78.79
+      },
+      "adjacent": [
+        "Ward 20",
+        "Ward 21",
+        "Ward 23",
+        "Ward 25",
+        "Ward 29",
+        "Ward 30"
+      ],
+      "totalStreets": 21,
+      "streets": [
+        "C.M road",
+        "Ambigapathi street",
+        "Nakeerar street",
+        "P.A.L street",
+        "Magarnombu potal east/north/south",
+        "Markandayan kovil street",
+        "M.V.street",
+        "Seniur vadaku street",
+        "Vallalar street",
+        "Aru.A.Rama.street",
+        "Church 3rd street",
+        "Meyappan ambalam street",
+        "Javagar street",
+        "Gandhi street",
+        "Vairavan street",
+        "Vadivel ambalam kilamel street",
+        "Vadivel ambalam 2nd street",
+        "Vadivel ambalam thenvadal",
+        "Kilakotiyar street",
+        "Sivan sanathi street",
+        "Muthallaman east/west/north"
+      ],
+      "polygon": [
+        [
+          10.072,
+          78.787
+        ],
+        [
+          10.072,
+          78.796
+        ],
+        [
+          10.068,
+          78.797
+        ],
+        [
+          10.064,
+          78.794
+        ],
+        [
+          10.064,
+          78.787
+        ],
+        [
+          10.067,
+          78.784
+        ],
+        [
+          10.07,
+          78.785
+        ],
+        [
+          10.072,
+          78.787
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.787,
+              10.072
+            ],
+            [
+              78.796,
+              10.072
+            ],
+            [
+              78.797,
+              10.068
+            ],
+            [
+              78.794,
+              10.064
+            ],
+            [
+              78.787,
+              10.064
+            ],
+            [
+              78.784,
+              10.067
+            ],
+            [
+              78.785,
+              10.07
+            ],
+            [
+              78.787,
+              10.072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 25,
+      "wardName": "Kurichi Konmoi / Maruthupandiyar Nagar",
+      "centroid": {
+        "lat": 10.062,
+        "lon": 78.787
+      },
+      "adjacent": [
+        "Ward 19",
+        "Ward 20",
+        "Ward 24",
+        "Ward 26"
+      ],
+      "totalStreets": 10,
+      "streets": [
+        "Ice keni Pogum pathai",
+        "Ice keni kilamel street I & II",
+        "Arunthathiyar street",
+        "Maruthupandiar 100 feet west",
+        "Maruthupandiyar nagar I-V",
+        "Kurinchi kanmai pogum pathai",
+        "Kurunji kanmai melpuram kudisaigal",
+        "Nallaiyan street",
+        "Kandanoor road",
+        "Soveri pillyar kovil street"
+      ],
+      "polygon": [
+        [
+          10.066,
+          78.783
+        ],
+        [
+          10.066,
+          78.792
+        ],
+        [
+          10.062,
+          78.793
+        ],
+        [
+          10.057,
+          78.79
+        ],
+        [
+          10.057,
+          78.782
+        ],
+        [
+          10.06,
+          78.78
+        ],
+        [
+          10.064,
+          78.781
+        ],
+        [
+          10.066,
+          78.783
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.783,
+              10.066
+            ],
+            [
+              78.792,
+              10.066
+            ],
+            [
+              78.793,
+              10.062
+            ],
+            [
+              78.79,
+              10.057
+            ],
+            [
+              78.782,
+              10.057
+            ],
+            [
+              78.78,
+              10.06
+            ],
+            [
+              78.781,
+              10.064
+            ],
+            [
+              78.783,
+              10.066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 26,
+      "wardName": "Indira Nagar / Puthusanthai Street / Railway Feeder Road",
+      "centroid": {
+        "lat": 10.059,
+        "lon": 78.786
+      },
+      "adjacent": [
+        "Ward 19",
+        "Ward 25",
+        "Ward 27",
+        "Ward 28",
+        "Ward 29"
+      ],
+      "totalStreets": 9,
+      "streets": [
+        "Puthusanthai street",
+        "Railway feeder road",
+        "Muthuramalinga devar nagar",
+        "Indra nagar",
+        "Veera bathiran street",
+        "Municipal street",
+        "Udayam nagar",
+        "Bharathidasan street",
+        "Thiruvalluvar salai"
+      ],
+      "polygon": [
+        [
+          10.063,
+          78.782
+        ],
+        [
+          10.063,
+          78.791
+        ],
+        [
+          10.059,
+          78.792
+        ],
+        [
+          10.054,
+          78.789
+        ],
+        [
+          10.054,
+          78.781
+        ],
+        [
+          10.057,
+          78.779
+        ],
+        [
+          10.061,
+          78.78
+        ],
+        [
+          10.063,
+          78.782
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.782,
+              10.063
+            ],
+            [
+              78.791,
+              10.063
+            ],
+            [
+              78.792,
+              10.059
+            ],
+            [
+              78.789,
+              10.054
+            ],
+            [
+              78.781,
+              10.054
+            ],
+            [
+              78.779,
+              10.057
+            ],
+            [
+              78.78,
+              10.061
+            ],
+            [
+              78.782,
+              10.063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 27,
+      "wardName": "Karunanithi Nagar / Municipal Colony / Santhai Pettai East",
+      "centroid": {
+        "lat": 10.056,
+        "lon": 78.79
+      },
+      "adjacent": [
+        "Ward 26",
+        "Ward 28",
+        "Ward 36"
+      ],
+      "totalStreets": 11,
+      "streets": [
+        "Municipal colony",
+        "Karunanithinagar (south-north) I-III",
+        "Karunanithinagar kilameal",
+        "Pattukotayar street",
+        "Bharathiyar street",
+        "Annai thersa street",
+        "Nethaji road",
+        "Devar kudiyurupu",
+        "Muthramalingam nagar",
+        "Railway feeder road",
+        "NSK street karunanithi nagar"
+      ],
+      "polygon": [
+        [
+          10.06,
+          78.786
+        ],
+        [
+          10.06,
+          78.795
+        ],
+        [
+          10.056,
+          78.796
+        ],
+        [
+          10.051,
+          78.793
+        ],
+        [
+          10.051,
+          78.786
+        ],
+        [
+          10.054,
+          78.784
+        ],
+        [
+          10.058,
+          78.785
+        ],
+        [
+          10.06,
+          78.786
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.786,
+              10.06
+            ],
+            [
+              78.795,
+              10.06
+            ],
+            [
+              78.796,
+              10.056
+            ],
+            [
+              78.793,
+              10.051
+            ],
+            [
+              78.786,
+              10.051
+            ],
+            [
+              78.784,
+              10.054
+            ],
+            [
+              78.785,
+              10.058
+            ],
+            [
+              78.786,
+              10.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 28,
+      "wardName": "Shiva Nagar / Muthu Ramalinga Theaver Nagar / Burial Ground",
+      "centroid": {
+        "lat": 10.058,
+        "lon": 78.796
+      },
+      "adjacent": [
+        "Ward 26",
+        "Ward 27",
+        "Ward 29",
+        "Ward 33",
+        "Ward 36"
+      ],
+      "totalStreets": 15,
+      "streets": [
+        "Vaniyangali kovil street",
+        "Aiyuram kanudaiyaul street",
+        "Kapal otiya tamilan street",
+        "Kodikatha kumaran street",
+        "Kamarajar street",
+        "Thiyagi kakkan street",
+        "Santhan muthumaryamman kovil street",
+        "N.S.K.Karunanithi street",
+        "Thanthai periyar street",
+        "M.G.R.street",
+        "Jeevanatham street",
+        "Karunanithi nagar 1st-3rd Street",
+        "Mariyamman kovil street",
+        "Puthusanthai east street",
+        "Nallayan street"
+      ],
+      "polygon": [
+        [
+          10.062,
+          78.792
+        ],
+        [
+          10.062,
+          78.801
+        ],
+        [
+          10.058,
+          78.802
+        ],
+        [
+          10.053,
+          78.799
+        ],
+        [
+          10.053,
+          78.791
+        ],
+        [
+          10.056,
+          78.789
+        ],
+        [
+          10.06,
+          78.79
+        ],
+        [
+          10.062,
+          78.792
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.792,
+              10.062
+            ],
+            [
+              78.801,
+              10.062
+            ],
+            [
+              78.802,
+              10.058
+            ],
+            [
+              78.799,
+              10.053
+            ],
+            [
+              78.791,
+              10.053
+            ],
+            [
+              78.789,
+              10.056
+            ],
+            [
+              78.79,
+              10.06
+            ],
+            [
+              78.792,
+              10.062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 29,
+      "wardName": "Nallaiyan Street / ACD Street / New Market Road",
+      "centroid": {
+        "lat": 10.063,
+        "lon": 78.793
+      },
+      "adjacent": [
+        "Ward 24",
+        "Ward 25",
+        "Ward 26",
+        "Ward 28",
+        "Ward 30",
+        "Ward 33"
+      ],
+      "totalStreets": 13,
+      "streets": [
+        "A.C.D street",
+        "Aarkadu Kumarappan street",
+        "Rankiyathar street",
+        "Arunachalam street",
+        "Vai.Vera.street",
+        "Melamaganathar street",
+        "Kilakoratiyar street",
+        "Kottamadakiyar street",
+        "Alangudiyar street",
+        "Ramakrishna street",
+        "Veraiayan kanmai street",
+        "Venkatasalam street",
+        "Thenappan sandhu"
+      ],
+      "polygon": [
+        [
+          10.067,
+          78.789
+        ],
+        [
+          10.067,
+          78.798
+        ],
+        [
+          10.063,
+          78.799
+        ],
+        [
+          10.058,
+          78.796
+        ],
+        [
+          10.058,
+          78.788
+        ],
+        [
+          10.061,
+          78.786
+        ],
+        [
+          10.065,
+          78.787
+        ],
+        [
+          10.067,
+          78.789
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.789,
+              10.067
+            ],
+            [
+              78.798,
+              10.067
+            ],
+            [
+              78.799,
+              10.063
+            ],
+            [
+              78.796,
+              10.058
+            ],
+            [
+              78.788,
+              10.058
+            ],
+            [
+              78.786,
+              10.061
+            ],
+            [
+              78.787,
+              10.065
+            ],
+            [
+              78.789,
+              10.067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 30,
+      "wardName": "Sathiya Nagar / Perumal Kovil / Sivan Kovil / CMC Road",
+      "centroid": {
+        "lat": 10.065,
+        "lon": 78.801
+      },
+      "adjacent": [
+        "Ward 23",
+        "Ward 24",
+        "Ward 29",
+        "Ward 31",
+        "Ward 32"
+      ],
+      "totalStreets": 17,
+      "streets": [
+        "Virakanda vinayagar street",
+        "Perumal kovil south/west/north/east",
+        "Sathyanagar",
+        "Pasumadam street",
+        "P.R.M. street",
+        "Muthu street",
+        "Amman santhi",
+        "Avichi street",
+        "Vellaikundar street",
+        "C.T.M santhu",
+        "Periyannan street",
+        "Kovilboorar road",
+        "Kinatradi kaliyaman kovil street",
+        "Sivan kovil south/west/north/east",
+        "Me.Me.street",
+        "Sa.La..street",
+        "Lakshmanan street"
+      ],
+      "polygon": [
+        [
+          10.069,
+          78.796
+        ],
+        [
+          10.069,
+          78.806
+        ],
+        [
+          10.065,
+          78.807
+        ],
+        [
+          10.06,
+          78.804
+        ],
+        [
+          10.06,
+          78.796
+        ],
+        [
+          10.063,
+          78.794
+        ],
+        [
+          10.067,
+          78.795
+        ],
+        [
+          10.069,
+          78.796
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.796,
+              10.069
+            ],
+            [
+              78.806,
+              10.069
+            ],
+            [
+              78.807,
+              10.065
+            ],
+            [
+              78.804,
+              10.06
+            ],
+            [
+              78.796,
+              10.06
+            ],
+            [
+              78.794,
+              10.063
+            ],
+            [
+              78.795,
+              10.067
+            ],
+            [
+              78.796,
+              10.069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 31,
+      "wardName": "Killaoorani / Senjai Oorani / Nattar Kanmoi / Devakottai Road",
+      "centroid": {
+        "lat": 10.062,
+        "lon": 78.809
+      },
+      "adjacent": [
+        "Ward 23",
+        "Ward 30",
+        "Ward 32",
+        "Ward 34",
+        "Sankarapuram Panchayat"
+      ],
+      "totalStreets": 17,
+      "streets": [
+        "Kabilar street",
+        "Chidambaranar street",
+        "Senjai oorani north",
+        "Municipal street (Kumaran street)",
+        "Avaiyar street-1 & 2",
+        "Chidambaram street (divan bagathur salai)",
+        "Sethalai sathanar street",
+        "Sundarar street",
+        "Sengutuvan street",
+        "Kumarappan street",
+        "Subbiah street",
+        "Iyannar santhi street (Sekillar street)",
+        "Senjai oorani west",
+        "Mulaithinai street",
+        "Killaoorani east/west/south/north",
+        "Devakottai road",
+        "Senjai oorani south"
+      ],
+      "polygon": [
+        [
+          10.067,
+          78.804
+        ],
+        [
+          10.067,
+          78.815
+        ],
+        [
+          10.058,
+          78.816
+        ],
+        [
+          10.055,
+          78.81
+        ],
+        [
+          10.057,
+          78.804
+        ],
+        [
+          10.062,
+          78.802
+        ],
+        [
+          10.065,
+          78.803
+        ],
+        [
+          10.067,
+          78.804
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.804,
+              10.067
+            ],
+            [
+              78.815,
+              10.067
+            ],
+            [
+              78.816,
+              10.058
+            ],
+            [
+              78.81,
+              10.055
+            ],
+            [
+              78.804,
+              10.057
+            ],
+            [
+              78.802,
+              10.062
+            ],
+            [
+              78.803,
+              10.065
+            ],
+            [
+              78.804,
+              10.067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 32,
+      "wardName": "Chokkalingam / Venketachalam Chettiyar Street / AVPL Street",
+      "centroid": {
+        "lat": 10.066,
+        "lon": 78.799
+      },
+      "adjacent": [
+        "Ward 30",
+        "Ward 31",
+        "Ward 33"
+      ],
+      "totalStreets": 12,
+      "streets": [
+        "AVPL street",
+        "Managiri Palaniyappan street",
+        "Chellappan street",
+        "Chokkalingam street",
+        "Kamatchi street",
+        "A.V.P.L street",
+        "Senjai pottal",
+        "Baskaran santhu",
+        "Palaniyappan street",
+        "Sekadi gate",
+        "Veeraiyan kanmoi west",
+        "Lakshmipura agragaram"
+      ],
+      "polygon": [
+        [
+          10.07,
+          78.796
+        ],
+        [
+          10.07,
+          78.804
+        ],
+        [
+          10.066,
+          78.805
+        ],
+        [
+          10.061,
+          78.802
+        ],
+        [
+          10.061,
+          78.795
+        ],
+        [
+          10.064,
+          78.793
+        ],
+        [
+          10.068,
+          78.794
+        ],
+        [
+          10.07,
+          78.796
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.796,
+              10.07
+            ],
+            [
+              78.804,
+              10.07
+            ],
+            [
+              78.805,
+              10.066
+            ],
+            [
+              78.802,
+              10.061
+            ],
+            [
+              78.795,
+              10.061
+            ],
+            [
+              78.793,
+              10.064
+            ],
+            [
+              78.794,
+              10.068
+            ],
+            [
+              78.796,
+              10.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 33,
+      "wardName": "Puthusanthai West / Pananthoppu / Veraiyan Kanmoi West",
+      "centroid": {
+        "lat": 10.062,
+        "lon": 78.796
+      },
+      "adjacent": [
+        "Ward 28",
+        "Ward 29",
+        "Ward 32",
+        "Ward 34"
+      ],
+      "totalStreets": 9,
+      "streets": [
+        "Ramasamy street",
+        "Deivarayan street",
+        "Puthusanthai west",
+        "Municipal street (Puthusanthai south)",
+        "Pananthoppu",
+        "Municipal street Pananthoppu",
+        "Nachiyappan street",
+        "Puthusanthai vadaku",
+        "Veraiyan kanmoi west"
+      ],
+      "polygon": [
+        [
+          10.066,
+          78.792
+        ],
+        [
+          10.066,
+          78.801
+        ],
+        [
+          10.062,
+          78.802
+        ],
+        [
+          10.057,
+          78.799
+        ],
+        [
+          10.057,
+          78.791
+        ],
+        [
+          10.06,
+          78.789
+        ],
+        [
+          10.064,
+          78.79
+        ],
+        [
+          10.066,
+          78.792
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.792,
+              10.066
+            ],
+            [
+              78.801,
+              10.066
+            ],
+            [
+              78.802,
+              10.062
+            ],
+            [
+              78.799,
+              10.057
+            ],
+            [
+              78.791,
+              10.057
+            ],
+            [
+              78.789,
+              10.06
+            ],
+            [
+              78.79,
+              10.064
+            ],
+            [
+              78.792,
+              10.066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 34,
+      "wardName": "CMC Road / Pappa Oorani / Devakottai Road",
+      "centroid": {
+        "lat": 10.057,
+        "lon": 78.805
+      },
+      "adjacent": [
+        "Ward 31",
+        "Ward 32",
+        "Ward 33",
+        "Ward 35",
+        "Ariyakudi Panchayat"
+      ],
+      "totalStreets": 6,
+      "streets": [
+        "C.M.C road (East and West)",
+        "Nagalingam pillai street",
+        "Sambantha mudaliyar street Pappa oorani west",
+        "Devakotai road (C.M.C.road)",
+        "Pappa oorani East/North/South",
+        "Municipal street -2 & 3"
+      ],
+      "polygon": [
+        [
+          10.062,
+          78.8
+        ],
+        [
+          10.062,
+          78.81
+        ],
+        [
+          10.056,
+          78.811
+        ],
+        [
+          10.051,
+          78.807
+        ],
+        [
+          10.051,
+          78.8
+        ],
+        [
+          10.055,
+          78.798
+        ],
+        [
+          10.06,
+          78.799
+        ],
+        [
+          10.062,
+          78.8
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.8,
+              10.062
+            ],
+            [
+              78.81,
+              10.062
+            ],
+            [
+              78.811,
+              10.056
+            ],
+            [
+              78.807,
+              10.051
+            ],
+            [
+              78.8,
+              10.051
+            ],
+            [
+              78.798,
+              10.055
+            ],
+            [
+              78.799,
+              10.06
+            ],
+            [
+              78.8,
+              10.062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 35,
+      "wardName": "Vaithiyalingapuram / Periyar Nagar Ice Keni West",
+      "centroid": {
+        "lat": 10.053,
+        "lon": 78.798
+      },
+      "adjacent": [
+        "Ward 33",
+        "Ward 34",
+        "Ward 36"
+      ],
+      "totalStreets": 9,
+      "streets": [
+        "Periyar nagar icekeni west side",
+        "Vaithiyalingapuram 1st-2nd street",
+        "Thiruvalluvar street",
+        "Vaithiyalingapuram anna street",
+        "Vaithiyalingapuram north/south",
+        "Nachuliyenthal",
+        "Vaithiyalingapuram main road",
+        "Nagalingam street",
+        "Veeraiyan kanmoi (British bakery irakkam)"
+      ],
+      "polygon": [
+        [
+          10.058,
+          78.794
+        ],
+        [
+          10.058,
+          78.803
+        ],
+        [
+          10.053,
+          78.804
+        ],
+        [
+          10.048,
+          78.801
+        ],
+        [
+          10.048,
+          78.794
+        ],
+        [
+          10.051,
+          78.792
+        ],
+        [
+          10.056,
+          78.793
+        ],
+        [
+          10.058,
+          78.794
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.794,
+              10.058
+            ],
+            [
+              78.803,
+              10.058
+            ],
+            [
+              78.804,
+              10.053
+            ],
+            [
+              78.801,
+              10.048
+            ],
+            [
+              78.794,
+              10.048
+            ],
+            [
+              78.792,
+              10.051
+            ],
+            [
+              78.793,
+              10.056
+            ],
+            [
+              78.794,
+              10.058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "wardId": 36,
+      "wardName": "Veeraiyan Kanmoi East / Sathiyamoorthy Nagar / Puthusanthai East",
+      "centroid": {
+        "lat": 10.0593,
+        "lon": 78.7917
+      },
+      "adjacent": [
+        "Ward 27",
+        "Ward 28",
+        "Ward 33",
+        "Ward 35",
+        "Ariyakudi Panchayat"
+      ],
+      "totalStreets": 8,
+      "streets": [
+        "Veeraiyan kanmoi east",
+        "Puthusanthai East / From Mariamman kovil - Pillayar",
+        "Puthusanthai East (Ganesapuram)",
+        "Sathiyamoorthy nagar 1st street",
+        "Sathiyamoorthy nagar 2nd street",
+        "Sathiyamoorthy nagar 3rd street",
+        "Periyar nagar east side",
+        "Karunai vinayagar street"
+      ],
+      "polygon": [
+        [
+          10.0602,
+          78.7905
+        ],
+        [
+          10.0615,
+          78.7908
+        ],
+        [
+          10.0608,
+          78.794
+        ],
+        [
+          10.0588,
+          78.7945
+        ],
+        [
+          10.0572,
+          78.793
+        ],
+        [
+          10.0575,
+          78.79
+        ],
+        [
+          10.059,
+          78.7888
+        ],
+        [
+          10.0602,
+          78.7905
+        ]
+      ],
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.7905,
+              10.0602
+            ],
+            [
+              78.7908,
+              10.0615
+            ],
+            [
+              78.794,
+              10.0608
+            ],
+            [
+              78.7945,
+              10.0588
+            ],
+            [
+              78.793,
+              10.0572
+            ],
+            [
+              78.79,
+              10.0575
+            ],
+            [
+              78.7888,
+              10.059
+            ],
+            [
+              78.7905,
+              10.0602
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
