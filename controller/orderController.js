@@ -342,7 +342,6 @@ const addItemsTable = (doc, data) => {
   doc.font('Helvetica-Bold')
      .fontSize(10)
      .text('PRODUCT', 50, tableTop)
-     .text('SIZE', 190, tableTop)
      .text('QTY', 260, tableTop)
      .text('PRICE', 330, tableTop)
      .text('TOTAL', 430, tableTop);
@@ -369,7 +368,6 @@ const addItemsTable = (doc, data) => {
     doc.font('Helvetica')
        .fontSize(9)
        .text(displayName, 50, yPosition, { width: 130 })
-       .text(sizeDisplay, 190, yPosition, { width: 60 })
        .text(item.quantity.toString(), 260, yPosition, { width: 60 })
        .text(`${item.price}`, 330, yPosition, { width: 90 })
        .text(`${item.total}`, 430, yPosition, { width: 90 });
