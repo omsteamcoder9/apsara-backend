@@ -2,6 +2,7 @@
 import nodemailer from 'nodemailer';
 import Order from '../models/orderModel.js';
 import User from '../models/userModel.js';
+import Setting from '../models/Setting.js';
 import {
   ValidationError,
   NotFoundError,
@@ -19,9 +20,20 @@ const createTransporter = () => {
   });
 };
 
+// ✅ Helper: Fetch dynamic site name from settings
+const getSiteName = async () => {
+  try {
+    const settings = await Setting.findOne().select('siteName');
+    return settings?.siteName || 'Your Store';
+  } catch (error) {
+    console.error('Error fetching site name:', error);
+    return 'Your Store';
+  }
+};
+
 // Email templates - COMPLETE VERSION WITH ALL TEMPLATES
 export const emailTemplates = {
-  userOrderConfirmation: (order, isGuest = false) => {
+  userOrderConfirmation: (order, siteName = 'Your Store', isGuest = false) => {
     // Safe data extraction with comprehensive fallbacks
     const userName = isGuest 
       ? (order.guestUser?.name || order.shippingAddress?.fullName || order.shippingAddress?.name || 'Customer')
@@ -152,7 +164,7 @@ export const emailTemplates = {
                     </p>
                 </div>
                 <div class="footer">
-                    <p>&copy; ${new Date().getFullYear()} Your Store Name. All rights reserved.</p>
+                    <p>&copy; ${new Date().getFullYear()} ${siteName}. All rights reserved.</p>
                     <p>This is an automated message, please do not reply to this email.</p>
                 </div>
             </div>
@@ -163,7 +175,7 @@ export const emailTemplates = {
   },
 
   // ADMIN ORDER NOTIFICATION TEMPLATE
-  adminOrderNotification: (order, isGuest = false) => {
+  adminOrderNotification: (order, siteName = 'Your Store', isGuest = false) => {
     // Safe customer info extraction
     const customerInfo = isGuest 
       ? `Guest Customer: ${order.guestUser?.name || 'N/A'} (${order.guestUser?.email || 'No email'})`
@@ -181,7 +193,7 @@ export const emailTemplates = {
     `).join('');
 
     return {
-      subject: `📦 New Order Received - ${order.orderId || 'N/A'}`,
+      subject: `📦 New Order Received (${siteName}) - ${order.orderId || 'N/A'}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -201,6 +213,7 @@ export const emailTemplates = {
             <div class="container">
                 <div class="header">
                     <h1>New Order Received!</h1>
+                    <p>${siteName}</p>
                 </div>
                 <div class="content">
                     <div class="alert">
@@ -279,7 +292,7 @@ export const emailTemplates = {
   },
 
   // ORDER STATUS UPDATE TEMPLATE
-  orderStatusUpdate: (order, oldStatus, newStatus) => {
+  orderStatusUpdate: (order, oldStatus, newStatus, siteName = 'Your Store') => {
     const userName = order.isGuestOrder ? 
       (order.guestUser?.name || 'Customer') : 
       (order.user?.name || 'Customer');
@@ -329,7 +342,7 @@ export const emailTemplates = {
             </div>
 
             <div class="footer">
-              <p>Thank you for shopping with us!</p>
+              <p>Thank you for shopping with ${siteName}!</p>
             </div>
           </div>
         </body>
@@ -339,9 +352,9 @@ export const emailTemplates = {
   },
 
   // USER REGISTRATION TEMPLATE
-  userRegistration: (user) => {
+  userRegistration: (user, siteName = 'Your Store') => {
     return {
-      subject: `Welcome to Our Store, ${user.name || 'Customer'}!`,
+      subject: `Welcome to ${siteName}, ${user.name || 'Customer'}!`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -361,7 +374,7 @@ export const emailTemplates = {
                 </div>
                 <div class="content">
                     <h2>Hello ${user.name || 'Customer'},</h2>
-                    <p>We're excited to welcome you to our store! Your account has been successfully created.</p>
+                    <p>We're excited to welcome you to ${siteName}! Your account has been successfully created.</p>
                     
                     <div style="text-align: center;">
                        <a href="${process.env.ALLOWED_ORIGINS?.split(',')[0] || 'http://localhost:3000'}/shop" class="button">
@@ -377,7 +390,7 @@ export const emailTemplates = {
   },
 
   // ORDER CANCELLATION NOTIFICATION TEMPLATE
-  orderCancellationNotification: (order, cancelledBy = 'user', cancellationReason = 'Not specified') => {
+  orderCancellationNotification: (order, cancelledBy = 'user', cancellationReason = 'Not specified', siteName = 'Your Store') => {
     // Safe customer info extraction
     const customerInfo = order.isGuestOrder 
       ? `Guest Customer: ${order.guestUser?.name || 'N/A'} (${order.guestUser?.email || 'No email'})`
@@ -398,7 +411,7 @@ export const emailTemplates = {
     const totalAmount = order.finalAmount || 0;
 
     return {
-      subject: `🚨 ORDER CANCELLED - ${order.orderId || 'N/A'}`,
+      subject: `🚨 ORDER CANCELLED (${siteName}) - ${order.orderId || 'N/A'}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -421,6 +434,7 @@ export const emailTemplates = {
                 <div class="header">
                     <h1>🚨 Order Cancelled</h1>
                     <p>Order ID: ${order.orderId || 'N/A'}</p>
+                    <p>${siteName}</p>
                 </div>
                 
                 <div class="content">
@@ -502,9 +516,9 @@ export const emailTemplates = {
   },
 
   // PASSWORD RESET EMAIL TEMPLATE
-  passwordResetEmail: (user, resetUrl) => {
+  passwordResetEmail: (user, resetUrl, siteName = 'Your Store') => {
     return {
-      subject: '🔐 Password Reset Request - Your Store',
+      subject: `🔐 Password Reset Request - ${siteName}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -527,7 +541,7 @@ export const emailTemplates = {
                 
                 <div class="content">
                     <h2>Hello ${user.name || 'Customer'},</h2>
-                    <p>We received a request to reset your password for your account. Click the button below to create a new password:</p>
+                    <p>We received a request to reset your password for your ${siteName} account. Click the button below to create a new password:</p>
                     
                     <div style="text-align: center;">
                         <a href="${resetUrl}" class="button">
@@ -548,7 +562,7 @@ export const emailTemplates = {
                 </div>
 
                 <div class="footer">
-                    <p>&copy; ${new Date().getFullYear()} Your Store Name. All rights reserved.</p>
+                    <p>&copy; ${new Date().getFullYear()} ${siteName}. All rights reserved.</p>
                     <p>This is an automated message, please do not reply to this email.</p>
                 </div>
             </div>
@@ -559,9 +573,9 @@ export const emailTemplates = {
   },
 
   // PASSWORD RESET CONFIRMATION TEMPLATE
-  passwordResetConfirmation: (user) => {
+  passwordResetConfirmation: (user, siteName = 'Your Store') => {
     return {
-      subject: '✅ Password Successfully Reset - Your Store',
+      subject: `✅ Password Successfully Reset - ${siteName}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -588,7 +602,7 @@ export const emailTemplates = {
                         <strong>Success!</strong> Your password has been reset successfully.
                     </div>
 
-                    <p>You can now login to your account using your new password.</p>
+                    <p>You can now login to your ${siteName} account using your new password.</p>
 
                     <div style="text-align: center;">
                         <a href="${process.env.ALLOWED_ORIGINS?.split(',')[0] || 'http://localhost:3000'}/login" class="button">
@@ -608,7 +622,7 @@ export const emailTemplates = {
   },
 
   // GUEST PASSWORD EMAIL TEMPLATE
-  guestPasswordEmail: (email, password, order) => {
+  guestPasswordEmail: (email, password, order, siteName = 'Your Store') => {
     const orderId = order.orderId || 'N/A';
     const userName = order.guestUser?.name || 
                      order.shippingAddress?.fullName || 
@@ -647,11 +661,12 @@ export const emailTemplates = {
             <div class="header">
               <h1>Your Account is Ready!</h1>
               <p>Order #${orderId}</p>
+              <p>${siteName}</p>
             </div>
             
             <div class="content">
               <h2>Hello ${userName},</h2>
-              <p>Thank you for your order! We've created a user account for you so you can track your order and make future purchases more easily.</p>
+              <p>Thank you for your order at ${siteName}! We've created a user account for you so you can track your order and make future purchases more easily.</p>
               
               <div class="alert">
                 <strong>Important:</strong> Your login credentials
@@ -688,7 +703,7 @@ export const emailTemplates = {
             </div>
             
             <div class="footer">
-              <p>&copy; ${new Date().getFullYear()} Your Store. All rights reserved.</p>
+              <p>&copy; ${new Date().getFullYear()} ${siteName}. All rights reserved.</p>
               <p>This is an automated message, please do not reply to this email.</p>
             </div>
           </div>
@@ -721,9 +736,10 @@ export const sendEmail = async (to, subject, html) => {
     }
 
     const transporter = createTransporter();
+    const siteName = await getSiteName();
     
     const mailOptions = {
-      from: process.env.ADMIN_EMAIL || '"Your Store" <noreply@yourstore.com>',
+      from: `"${siteName}" <${process.env.ADMIN_EMAIL}>`,
       to: to,
       subject: subject,
       html: html
@@ -753,8 +769,10 @@ export const sendRegistrationEmail = async (user) => {
       throw new Error('Invalid user data for registration email');
     }
 
+    const siteName = await getSiteName();
+
     // Get email template
-    const emailTemplate = emailTemplates.userRegistration(user);
+    const emailTemplate = emailTemplates.userRegistration(user, siteName);
     
     // Send email
     const result = await sendEmail(user.email, emailTemplate.subject, emailTemplate.html);
@@ -776,7 +794,8 @@ export const sendPasswordResetEmail = async (user, resetUrl) => {
       throw new Error('Invalid user data for password reset email');
     }
 
-    const emailTemplate = emailTemplates.passwordResetEmail(user, resetUrl);
+    const siteName = await getSiteName();
+    const emailTemplate = emailTemplates.passwordResetEmail(user, resetUrl, siteName);
     const result = await sendEmail(user.email, emailTemplate.subject, emailTemplate.html);
     
     console.log('✅ Password reset email sent successfully to:', user.email);
@@ -796,7 +815,8 @@ export const sendPasswordResetConfirmation = async (user) => {
       throw new Error('Invalid user data for password reset confirmation');
     }
 
-    const emailTemplate = emailTemplates.passwordResetConfirmation(user);
+    const siteName = await getSiteName();
+    const emailTemplate = emailTemplates.passwordResetConfirmation(user, siteName);
     const result = await sendEmail(user.email, emailTemplate.subject, emailTemplate.html);
     
     console.log('✅ Password reset confirmation sent successfully to:', user.email);
@@ -842,6 +862,9 @@ export const sendOrderConfirmation = async (orderId) => {
       }))
     }, null, 2));
 
+    // Fetch dynamic site name
+    const siteName = await getSiteName();
+
     let userEmail;
     let userName;
     let isGuest = order.isGuestOrder;
@@ -881,7 +904,7 @@ export const sendOrderConfirmation = async (orderId) => {
     }
 
     // Send email to user
-    const userTemplate = emailTemplates.userOrderConfirmation(order, isGuest);
+    const userTemplate = emailTemplates.userOrderConfirmation(order, siteName, isGuest);
     const userResult = await sendEmail(userEmail, userTemplate.subject, userTemplate.html);
     
     if (userResult.success) {
@@ -893,7 +916,7 @@ export const sendOrderConfirmation = async (orderId) => {
     // Send admin notification
     let adminResult = null;
     if (process.env.ADMIN_EMAIL) {
-      const adminTemplate = emailTemplates.adminOrderNotification(order, isGuest);
+      const adminTemplate = emailTemplates.adminOrderNotification(order, siteName, isGuest);
       adminResult = await sendEmail(process.env.ADMIN_EMAIL, adminTemplate.subject, adminTemplate.html);
       
       if (adminResult.success) {
@@ -954,8 +977,9 @@ export const sendOrderStatusUpdate = async (req, reply) => {
 
     // Send email (only once)
     try {
+      const siteName = await getSiteName();
       // This should call the email template, not recursively call this function
-      const emailTemplate = emailTemplates.orderStatusUpdate(order, oldStatus, orderStatus);
+      const emailTemplate = emailTemplates.orderStatusUpdate(order, oldStatus, orderStatus, siteName);
       const userEmail = order.isGuestOrder ? order.guestUser?.email : order.user?.email;
       
       if (userEmail) {
@@ -986,7 +1010,8 @@ export const sendOrderStatusUpdate = async (req, reply) => {
 // Send bulk admin notification (for multiple new orders)
 export const sendBulkAdminNotification = async (orders) => {
   try {
-    const subject = `📦 ${orders.length} New Orders Received`;
+    const siteName = await getSiteName();
+    const subject = `📦 ${orders.length} New Orders Received (${siteName})`;
     
     let html = `
       <!DOCTYPE html>
@@ -1003,6 +1028,7 @@ export const sendBulkAdminNotification = async (orders) => {
         <div class="container">
           <div class="header">
             <h1>${orders.length} New Orders Received</h1>
+            <p>${siteName}</p>
           </div>
     `;
 
@@ -1057,11 +1083,14 @@ export const sendOrderCancellationNotification = async (order, cancelledBy = 'us
         .lean();
     }
 
+    const siteName = await getSiteName();
+
     // Get email template
     const emailTemplate = emailTemplates.orderCancellationNotification(
       populatedOrder, 
       cancelledBy, 
-      cancellationReason
+      cancellationReason,
+      siteName
     );
 
     // Send email to admin
@@ -1089,9 +1118,11 @@ export const sendGuestPasswordEmail = async (email, password, order) => {
     if (!email || !email.includes('@')) {
       throw new Error(`Invalid email address: ${email}`);
     }
+
+    const siteName = await getSiteName();
     
     // Get email template
-    const emailTemplate = emailTemplates.guestPasswordEmail(email, password, order);
+    const emailTemplate = emailTemplates.guestPasswordEmail(email, password, order, siteName);
     
     // Send email
     const result = await sendEmail(email, emailTemplate.subject, emailTemplate.html);
@@ -1108,7 +1139,8 @@ export const sendGuestPasswordEmail = async (email, password, order) => {
 export const testEmail = async (req, reply) => {
   try {
     const testEmail = req.body.email || "test@example.com";
-    const testSubject = "Test Email from Ecommerce System";
+    const siteName = await getSiteName();
+    const testSubject = `Test Email from ${siteName}`;
     const testHtml = `
       <!DOCTYPE html>
       <html>
@@ -1123,6 +1155,7 @@ export const testEmail = async (req, reply) => {
         <div class="container">
           <div class="header">
             <h1>Test Email</h1>
+            <p>${siteName}</p>
           </div>
           <div class="content">
             <h2>Email Configuration Test</h2>
